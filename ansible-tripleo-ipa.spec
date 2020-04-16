@@ -16,8 +16,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           ansible-%{rolename}
-Version:        XXX
-Release:        XXX
+Version:        0.1.1
+Release:        1%{?dist}
 Summary:        Ansible assets for interacting with FreeIPA on behalf of TripleO
 
 Group:          System Environment/Base
@@ -66,3 +66,6 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+* Thu Apr 16 2020 Yatin Karel <ykarel@redhat.com> - 0.1.1-1
+- Update to 0.1.1
+
