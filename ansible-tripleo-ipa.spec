@@ -32,8 +32,10 @@ BuildRequires:  python%{pyver}-setuptools
 BuildRequires:  python%{pyver}-pbr
 
 Requires: ansible-freeipa
+Requires: krb5-workstation
 Requires: python%{pyver}-urllib-gssapi
 Requires: python%{pyver}-six
+Requires: python%{pyver}-netaddr
 %if %{pyver} == 2
 Requires: PyYAML
 %else
