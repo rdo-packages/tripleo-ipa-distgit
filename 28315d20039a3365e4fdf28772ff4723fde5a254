@@ -1,0 +1,9 @@
+Code-Review+2: User vakwetu <alee@redhat.com>
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Workflow+1: Yatin Karel <ykarel@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 08 May 2020 11:18:22 +0000
+Reviewed-on: https://review.rdoproject.org/r/27162
+Project: openstack/tripleo-ipa-distgit
+Branch: refs/heads/train-rdo
