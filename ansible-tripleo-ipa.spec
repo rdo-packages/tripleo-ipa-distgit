@@ -1,14 +1,3 @@
-# Macros for py2/py3 compatibility
-%if 0%{?fedora} || 0%{?rhel} > 7
-%global pyver %{python3_pkgversion}
-%else
-%global pyver 2
-%endif
-%global pyver_bin python%{pyver}
-%global pyver_sitelib %python%{pyver}_sitelib
-%global pyver_install %py%{pyver}_install
-%global pyver_build %py%{pyver}_build
-# End of macros for py2/py3 compatibility
 
 %global srcname tripleo_ipa
 %global rolename tripleo-ipa
@@ -27,20 +16,16 @@ Source0:        https://tarballs.opendev.org/x/%{rolename}/%{rolename}-%{upstrea
 
 BuildArch:      noarch
 BuildRequires:  git
-BuildRequires:  python%{pyver}-devel
-BuildRequires:  python%{pyver}-setuptools
-BuildRequires:  python%{pyver}-pbr
+BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
+BuildRequires:  python3-pbr
 
 Requires: ansible-freeipa
 Requires: krb5-workstation
-Requires: python%{pyver}-urllib-gssapi
-Requires: python%{pyver}-six
-Requires: python%{pyver}-netaddr
-%if %{pyver} == 2
-Requires: PyYAML
-%else
-Requires: python%{pyver}-PyYAML
-%endif
+Requires: python3-urllib-gssapi
+Requires: python3-six
+Requires: python3-netaddr
+Requires: python3-PyYAML
 
 %description
 
@@ -51,19 +36,19 @@ Ansible assets for interacting with FreeIPA on behalf of TripleO
 
 
 %build
-%{pyver_build}
+%{py3_build}
 
 
 %install
 export PBR_VERSION=%{version}
 export SKIP_PIP_INSTALL=1
-%{pyver_install}
+%{py3_install}
 
 
 %files
 %doc README*
 %license LICENSE
-%{pyver_sitelib}/%{srcname}-*.egg-info
+%{python3_sitelib}/%{srcname}-*.egg-info
 %{_datadir}/ansible/
 
 
