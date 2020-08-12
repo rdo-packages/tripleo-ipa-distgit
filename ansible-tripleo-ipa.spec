@@ -21,11 +21,16 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-pbr
 
 Requires: ansible-freeipa
+Requires: krb5-devel
 Requires: krb5-workstation
+Requires: openssl-perl
+Requires: python3-ipaclient
+Requires: python3-ipalib
 Requires: python3-urllib-gssapi
 Requires: python3-six
 Requires: python3-netaddr
 Requires: python3-PyYAML
+
 
 %description
 
