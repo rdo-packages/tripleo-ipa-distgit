@@ -1,5 +1,5 @@
 [gerrit]
 host=review.rdoproject.org
 port=29418
-project=openstack/ansible-tripleo-ipa-distgit
-defaultbranch=rpm-master
+project=openstack/tripleo-ipa-distgit
+defaultbranch=train-rdo
