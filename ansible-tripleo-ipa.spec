@@ -33,6 +33,9 @@ BuildRequires:  python%{pyver}-pbr
 
 Requires: ansible-freeipa
 Requires: krb5-workstation
+Requires: openssl-perl
+Requires: python%{pyver}-ipaclient
+Requires: python%{pyver}-ipalib
 Requires: python%{pyver}-urllib-gssapi
 Requires: python%{pyver}-six
 Requires: python%{pyver}-netaddr
