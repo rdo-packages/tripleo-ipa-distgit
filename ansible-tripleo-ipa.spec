@@ -5,9 +5,9 @@
 %global pyver 2
 %endif
 %global pyver_bin python%{pyver}
-%global pyver_sitelib %python%{pyver}_sitelib
-%global pyver_install %py%{pyver}_install
-%global pyver_build %py%{pyver}_build
+%global pyver_sitelib %{expand:%{python%{pyver}_sitelib}}
+%global pyver_install %{expand:%{py%{pyver}_install}}
+%global pyver_build %{expand:%{py%{pyver}_build}}
 # End of macros for py2/py3 compatibility
 
 %global srcname tripleo_ipa
@@ -73,4 +73,3 @@ export SKIP_PIP_INSTALL=1
 
 * Thu Apr 16 2020 Yatin Karel <ykarel@redhat.com> - 0.1.1-1
 - Update to 0.1.1
-
