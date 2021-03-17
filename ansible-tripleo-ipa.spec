@@ -74,3 +74,4 @@ export SKIP_PIP_INSTALL=1
 * Thu Apr 16 2020 Yatin Karel <ykarel@redhat.com> - 0.1.1-1
 - Update to 0.1.1
 
+# REMOVEME: error caused by commit https://opendev.org/x/tripleo-ipa/commit/e65f11baedf6f19ec31dca065c69fa4324f1dd88
