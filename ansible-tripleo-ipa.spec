@@ -16,7 +16,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           ansible-%{rolename}
-Version:        0.2.0
+Version:        0.2.1
 Release:        1%{?dist}
 Summary:        Ansible assets for interacting with FreeIPA on behalf of TripleO
 
@@ -68,6 +68,9 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+* Mon May 04 2020 Ade Lee <alee@redhat.com> - 0.2.1-1
+- Update to 0.2.1
+
 * Mon May 04 2020 Grzegorz Grasza <xek@redhat.com> - 0.2.0-1
 - Update to 0.2.0
 
