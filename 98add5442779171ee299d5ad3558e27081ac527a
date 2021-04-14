@@ -1,0 +1,9 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 14 Apr 2021 15:42:44 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/tripleo-ipa-distgit/+/33133
+Project: openstack/tripleo-ipa-distgit
+Branch: refs/heads/train-rdo
