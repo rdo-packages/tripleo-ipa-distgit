@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76b48b13_93e439d4",
+        "filename": "ansible-tripleo-ipa.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2021-04-15T14:02:17Z",
+      "side": 1,
+      "message": "Should be \"0x5d2d1e4fb8d38e6af76c50d53d4fec30cf5ce3da\" as this tarball has been built and signed during Wallaby cycle preparation.\n\nhttps://releases.openstack.org/_static/0x5d2d1e4fb8d38e6af76c50d53d4fec30cf5ce3da.txt",
+      "range": {
+        "startLine": 2,
+        "startChar": 25,
+        "endLine": 2,
+        "endChar": 67
+      },
+      "revId": "8410391ab2a622ed7a379086674c8cf0b9542028",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
