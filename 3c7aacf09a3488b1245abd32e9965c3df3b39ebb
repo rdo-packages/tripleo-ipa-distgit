@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af112a9d_c204ee9c",
+        "filename": "ansible-tripleo-ipa.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2021-04-15T13:57:26Z",
+      "side": 1,
+      "message": "Should be 14",
+      "range": {
+        "startLine": 56,
+        "startChar": 10,
+        "endLine": 56,
+        "endChar": 11
+      },
+      "revId": "3c7aacf09a3488b1245abd32e9965c3df3b39ebb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
