@@ -74,3 +74,4 @@ export SKIP_PIP_INSTALL=1
 
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/x/tripleo-ipa/commit/04944c4e4fdee1ffda2804441cf3b32d9b69b4e2
