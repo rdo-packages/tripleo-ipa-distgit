@@ -42,6 +42,9 @@ Requires: python3-urllib-gssapi
 Requires: python3-six
 Requires: python3-netaddr
 Requires: python3-PyYAML
+%if 0%{?rhel}==8
+Requires: python3-ipaserver
+%endif
 
 
 %description
