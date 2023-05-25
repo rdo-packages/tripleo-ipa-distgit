@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e50cbb6_c48e1540",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-05-25T13:39:13Z",
+      "side": 1,
+      "message": "tripleo-ipa pin proposed for zed in https://review.rdoproject.org/r/c/rdoinfo/+/48718",
+      "revId": "6d35953e439a8927a62982135c07f7830d4ec166",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
