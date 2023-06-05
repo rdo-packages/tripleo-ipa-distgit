@@ -33,7 +33,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-pbr
 
-Requires: ansible-freeipa
+Requires: ansible-freeipa >= 0.4.0
 Requires: krb5-workstation
 Requires: openssl-perl
 Requires: python3-ipaclient
