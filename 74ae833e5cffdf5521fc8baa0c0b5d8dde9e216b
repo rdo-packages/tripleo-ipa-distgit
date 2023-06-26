@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15c3a386_643431bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 657
+      },
+      "writtenOn": "2023-06-26T09:37:37Z",
+      "side": 1,
+      "message": "I believe this is no longer needed, as using a new enough ansible-freeipa allows tripleo-ipa to work without python3-ipaserver.\n\nIf you agree then we can abandon this.",
+      "revId": "74ae833e5cffdf5521fc8baa0c0b5d8dde9e216b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
